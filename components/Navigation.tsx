@@ -9,7 +9,7 @@ export default function Navigation() {
       {/* Logo */}
       <Link className="flex items-center gap-2" aria-label="Home" href="/">
         <Image
-          src="/LOGO.svg"
+          src="/LOGO (2).svg"
           alt="Panaversity Logo"
           width={150}
           height={75}
