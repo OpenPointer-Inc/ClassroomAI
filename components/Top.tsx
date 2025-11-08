@@ -17,7 +17,7 @@ export default function Top() {
   return (
     <div className="relative bg-white text-black">
       <div className="relative isolate px-6 lg:px-8">
-        <div className="mx-auto max-w-5xl pt-[4rem] sm:pt-[6rem] md:pt-[7rem] lg:pt-[8rem]">
+        <div className="mx-auto max-w-5xl pt-16 sm:pt-24 md:pt-28 lg:pt-32">
           <div className="text-center">
             <h1 className={`${poppins.className} text-[2rem] font-bold tracking-tight text-textPrimary xs:text-[2.5rem] sm:text-[3rem] md:text-[4rem]`}>
               Learn Agentic AI in{" "}
@@ -37,7 +37,7 @@ export default function Top() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 aria-label="Go to courses offered page"
-                className={`${inter.className} bg-[#11A46A] group relative inline-flex items-center overflow-hidden rounded-[40px] border-2 border-[#11A46A] bg-accent px-6 py-2.5 text-sm font-semibold text-textPrimary hover:bg-white hover:text-textPrimary sm:px-12 sm:py-4 sm:text-[0.9rem]`}
+                className={`${inter.className} bg-[#1CD68C] group relative inline-flex items-center overflow-hidden rounded-[40px] bg-accent px-6 py-2.5 text-sm font-semibold text-textPrimary hover:bg-white hover:text-textPrimary sm:px-12 sm:py-4 sm:text-[0.9rem]`}
                 href="/flagship-program/courses"
               >
                 <span className="duration-400 ease absolute left-0 top-1/2 block h-0 w-full bg-transparent opacity-100 transition-all group-hover:top-0 group-hover:h-full"></span>
@@ -66,7 +66,7 @@ export default function Top() {
         {/* Background video */}
         <div
           aria-hidden="true"
-          className="absolute inset-x-0 -z-10 mt-[-30rem] overflow-hidden xs:mt-[-34.5rem] sm:ml-[-8rem] sm:mt-[-33rem] md:ml-[-2rem] md:mt-[-32rem] lg:mt-[-34.5rem] xl:ml-[-6rem] xl:mt-[-37rem]"
+          className="absolute inset-x-0 -z-10 -mt-120 overflow-hidden xs:mt-[-34.5rem] sm:ml-[-8rem] sm:mt-[-33rem] md:ml-[-2rem] md:mt-[-32rem] lg:mt-[-34.5rem] xl:ml-[-6rem] xl:mt-[-37rem]"
         >
           <video
             src="video.mp4"
@@ -74,7 +74,7 @@ export default function Top() {
             muted
             autoPlay
             playsInline
-            className="custom-control h-[55rem] w-full object-cover opacity-[0.4] sm:h-[65rem] md:h-[75rem] lg:h-[85rem] xl:h-[95rem]"
+            className="custom-control h-220 w-full object-cover opacity-[0.4] sm:h-260 md:h-300 lg:h-340 xl:h-380"
           ></video>
         </div>
       </div>

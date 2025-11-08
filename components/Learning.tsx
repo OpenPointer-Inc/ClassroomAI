@@ -6,14 +6,14 @@ export default function Learning() {
   return (
     <section className="relative bg-white">
       <div className="flex flex-col items-center justify-between gap-y-0 xl:flex-row mx-auto px-4 sm:px-6 lg:max-w-[990px] lg:px-8 xl:max-w-[1200px] py-12 xl:py-16">
-        <div className="px-[1rem] text-left sm:px-[0.5rem] md:pr-10 xl:w-[612px] mb-6 xl:mb-0">
+        <div className="px-4 text-left sm:px-2 md:pr-10 xl:w-[612px] mb-6 xl:mb-0">
           <h2 className="text-black sm:text-md gradient-border w-fit border-b text-sm font-semibold uppercase tracking-wide text-textPrimary md:text-lg">
             Program Overview
           </h2>
           <h3 className="text-black font-poppins mt-6 text-2xl xs:text-3xl sm:text-4xl xl:text-4xl/[3.5rem] font-bold leading-tight text-textPrimary">
             Certified Agentic and Robotic AI Engineer
           </h3>
-          <p className="sm:text-md/[2] font-rubik mt-6 text-[1rem]/[2] text-[#031811]/70">
+          <p className="sm:text-md/[2] font-rubik mt-6 text-base/loose text-[#031811]/70">
             Embark on a Agentic AI journey that prepares you for the $100 trillion AI industrial revolution by equipping you with skills in Python, Agentic AI, Physical AI, and cloud-native microservices, followed by advanced topics like PyTorch, Kubernetes and fine-tuning large language models.
           </p>
           <p className="sm:text-md/[2] font-rubik mb-4 mt-4 text-[1rem]/[2] text-[#031811]/70">

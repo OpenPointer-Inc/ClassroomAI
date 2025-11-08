@@ -2,7 +2,6 @@
 import React from "react";
 import Image from "next/image";
 
-
 export default function Footer() {
   return (
     <footer className="bg-[#031811] pt-[4.5rem] text-white">
