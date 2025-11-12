@@ -12,7 +12,7 @@ export default function Faqs() {
             </h2>
             <h3 className="font-poppins mb-4 mt-2 text-center text-2xl font-semibold tracking-tight text-primary xs:text-3xl sm:text-4xl md:text-5xl">
               Beyond Learning:{" "}
-              <span className="text-accent">Your Transformation Pathway</span>
+              <span className="text-[#1A6DE0]">Your Transformation Pathway</span>
             </h3>
             <p className="mx-auto max-w-3xl text-base leading-relaxed text-gray-700 md:text-xl">
               Our unique blend of Expert Mentors, Personalized Learning Agent,

@@ -47,7 +47,7 @@ export default function Navigation() {
           className="flex items-center gap-2"
           href="https://ai.panaversity.org"
         >
-          <div className="flex items-center gap-2 bg-gradient-to-r from-[#0d8f5b] to-[#00D188] bg-clip-text text-transparent">
+          <div className="flex items-center gap-2 bg-linear-to-r from-[#0d8f5b] to-[#00D188] bg-clip-text text-transparent">
             <svg
               stroke="currentColor"
               fill="currentColor"

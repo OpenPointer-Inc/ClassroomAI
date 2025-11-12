@@ -21,7 +21,7 @@ export default function Top() {
           <div className="text-center">
             <h1 className={`${poppins.className} text-[2rem] font-bold tracking-tight text-textPrimary xs:text-[2.5rem] sm:text-[3rem] md:text-[4rem]`}>
               Learn Anything with{" "}
-              <span className="bg-gradient-to-r from-[#1C6DDD] to-[#0E6AEB] bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-[#0055cb] to-[#368aff] bg-clip-text text-transparent">
                 Smart AI Tutors
               </span>{" "}
               in Live Classes
