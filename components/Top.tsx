@@ -15,13 +15,13 @@ const inter = Inter({
 
 export default function Top() {
   return (
-    <div className="relative bg-white text-[#050316]">
+    <div className="relative bg-white">
       <div className="relative isolate px-6 lg:px-8">
         <div className="mx-auto max-w-5xl pt-16 sm:pt-24 md:pt-28 lg:pt-32">
           <div className="text-center">
             <h1 className={`${poppins.className} text-[2rem] font-bold tracking-tight text-textPrimary xs:text-[2.5rem] sm:text-[3rem] md:text-[4rem]`}>
               Learn Anything with{" "}
-              <span className="bg-linear-to-r from-[#0D905C] to-[#11A46A] bg-clip-text text-[#11A46A]">
+              <span className="bg-gradient-to-r from-[#1C6DDD] to-[#0E6AEB] bg-clip-text text-transparent">
                 Smart AI Tutors
               </span>{" "}
               in Live Classes
@@ -37,7 +37,7 @@ export default function Top() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 aria-label="Go to courses offered page"
-                className={`${inter.className} bg-[#1CD68C] group relative inline-flex items-center overflow-hidden rounded-[40px] bg-accent px-6 py-2.5 text-sm font-semibold text-textPrimary hover:bg-white hover:border-2 border-2 border-white hover:border-[#1CD98E] hover:text-textPrimary sm:px-12 sm:py-4 sm:text-[0.9rem]`}
+                className={`${inter.className} bg-[#006AFF] group relative inline-flex items-center overflow-hidden rounded-[40px] bg-accent px-6 py-2.5 text-sm font-semibold text-textPrimary hover:bg-white hover:border-2 border-2 border-white hover:border-[#006AFF] hover:text-black sm:px-12 sm:py-4 sm:text-[0.9rem] text-white`}
                 href="/flagship-program/courses"
               >
                 <span className="duration-400 ease absolute left-0 top-1/2 block h-0 w-full bg-transparent opacity-100 transition-all group-hover:top-0 group-hover:h-full"></span>

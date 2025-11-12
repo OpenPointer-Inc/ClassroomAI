@@ -3,14 +3,20 @@
 /* ===== Base Variables ===== */
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #050316;
+  --tcolor: #1CD98E;
+
+}
+
+.bg-custom-bg1 {
+  background-image: url('/Banner.png'); /* Note the leading slash for public folder */
 }
 
 /* ===== Dark Mode ===== */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #ffffff;
-    --foreground: #ededed;
+    --foreground: #050316;
   }
 }
 
@@ -19,6 +25,9 @@
   /* Colors */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-tcolor: var(--tcolor);
+
+
 
   /* Fonts */
   --font-poppins: var(--font-poppins), system-ui, sans-serif;
@@ -29,6 +38,7 @@
 
 /* ===== Base Styles ===== */
 body {
+  color: #050316;
   background: var(--color-background);
   color: var(--color-foreground);
   font-family: var(--font-rubik), system-ui, sans-serif;

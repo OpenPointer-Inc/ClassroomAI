@@ -11,8 +11,8 @@ export default function Home() {
       {/* Your content here */}
       <Navigation />
       <Top /> 
-      <Learning />
       <Faqs />
+      <Learning />
       <CalltoAction />
       <Footer />
     </main>
