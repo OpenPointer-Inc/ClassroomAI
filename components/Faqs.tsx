@@ -12,7 +12,7 @@ export default function Faqs() {
             </h2>
             <h3 className="font-poppins mb-4 mt-2 text-center text-2xl font-semibold tracking-tight text-primary xs:text-3xl sm:text-4xl md:text-5xl">
               Beyond Learning:{" "}
-              <span className="text-[#1A6DE0]">Your Transformation Pathway</span>
+              <span className="text-[#1A6DE0]">Accelerate Today with AI</span>
             </h3>
             <p className="mx-auto max-w-3xl text-base leading-relaxed text-gray-700 md:text-xl">
               Our unique blend of Expert Mentors, Personalized Learning Agent,
@@ -36,8 +36,8 @@ export default function Faqs() {
                 {/* Center Circle */}
                 <div className="absolute left-1/2 top-1/2 h-40 w-40 -translate-x-1/2 -translate-y-1/2 transform sm:h-72 sm:w-72">
                   <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform">
-                    <div className="absolute inset-0 bg-gradient-to-br from-orange-300 to-amber-400 rotate-6 rounded-2xl opacity-90 shadow-lg"></div>
-                    <div className="absolute inset-0 flex -rotate-3 items-center justify-center rounded-xl bg-white shadow-md">
+                    <div className="absolute inset-0 bg-linear-to-br from-orange-300 to-amber-400 rotate-6 rounded-2xl opacity-90 shadow-lg"></div>
+                    <div className="absolute inset-0 flex -rotate-3 items-center justify-center rounded-xl shadow-md">
                       <div className="p-3 text-center">
                         <div className="mb-3 text-amber-800">
                           <svg
@@ -74,16 +74,16 @@ export default function Faqs() {
                 <button className="h-2 w-12 rounded-full bg-gray-300"></button>
               </div>
 
-              <div className="flex h-[425px] w-full flex-col rounded-2xl border border-indigo-100 bg-white bg-opacity-80 p-8 shadow-xl backdrop-blur-sm">
+              <div className="flex h-[425px] w-full flex-col rounded-2xl border border-indigo-100 bg-[#006AFF] bg-opacity-80 p-8 shadow-xl backdrop-blur-sm">
                 <div className="flex h-full flex-col">
-                  <div className="inline-block rounded-full bg-gradient-to-r from-orange-400 to-amber-500 px-4 py-1 text-xs font-medium text-white shadow-sm mb-4">
+                  <div className="inline-block rounded-full bg-gradient-to-r from-[#e2e5e9] to-[#bbc6f8] px-4 py-1 text-xs font-medium text-black shadow-sm mb-4">
                     STEP 1
                   </div>
-                  <h2 className="font-poppins mb-4 text-xl font-bold text-amber-800">
+                  <h2 className="font-poppins mb-4 text-xl font-bold text-white">
                     ENROLL
                   </h2>
                   <div className="flex-grow overflow-y-auto pr-2">
-                    <p className="text-justify text-sm leading-relaxed text-gray-700">
+                    <p className="text-justify text-sm leading-relaxed text-white">
                       Begin your AI educational experience through our streamlined enrollment portal. Discover comprehensive program offerings, select your ideal course, and register with ease. Panaversity is designed to make your first step into AI education simple, transparent, and fully supported.
                     </p>
                   </div>

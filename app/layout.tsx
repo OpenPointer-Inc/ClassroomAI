@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Poppins, Rubik } from "next/font/google";
 import "./globals.css";
+import Navigation from '@/components/Navigation';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,13 +26,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Openpointer",
-  description: "Openpointer is a platform for learning Agentic AI",
+  title: "Classroom AI",
+  description: "Classroom AI | Revolutionizing Education with Intelligent Teaching Assistants",
   openGraph: {
-    title: "Openpointer – Learn Agentic AI",
-    description: "Master Agentic AI through hands-on learning.",
-    url: "https://openpointer.ai",
-    siteName: "Openpointer",
+    title: "Classroom AI – Start Learning with Smarter AI",
+    description: "Classroom AI: Transforming Learning Through AI-Powered Classrooms",
+    siteName: "Classroom AI",
     images: [
       {
         url: "/og-image.png",
@@ -44,8 +44,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Openpointer – Learn Agentic AI",
-    description: "Master Agentic AI through hands-on learning.",
+    title: "Classroom AI – Start Learning with Smarter AI",
+    description: "Learning made easy by AI tutors.",
     images: ["/og-image.png"],
   },
 };
@@ -60,6 +60,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${rubik.variable} ${geistMono.variable} ${poppins.variable} antialiased`}
       >
+      <Navigation />
         {children}
       </body>
     </html>
